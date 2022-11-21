@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+.typewriting {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+    color: white;
+    margin: 2rem auto;
+    /* border: 2px solid white; */
+    border-radius: 13px;
+    word-wrap: break-word;
+    align-items: center;
+    text-align: justify;
+}
+
+
+
+h1,
+h2 {
+    font-weight: 200;
+    margin: 0.4rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #aaa;
+}
+
+/* Cursor */
+.txt-type>.txt {
+    border-right: 0.2rem solid #777;
+}
+
+@media(min-width: 1200px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    #image {
+        float: right;
+        margin-top: -280px;
+    }
+}
+
+#image {
+    height: fit-content;
+    width: fit-content;
+    /* border: 2px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+    display: block;
+    position: relative;
+
+    overflow-x: hidden;
+    background-image: url('../pictures/settings-icon-14959.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+@media(min-width: 800px) {
+    .typewriting {
+        padding: 0 1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    #image {
+        float: right;
+        margin-top: -280px;
+    }
+}
+
+@media(max-width: 540px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+
+
+}
+
+.bodyPart p {
+    position: inherit;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+    color: white;
+    margin: 2rem auto auto 0;
+}
