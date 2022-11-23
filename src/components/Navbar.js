@@ -1,34 +1,35 @@
 import { useState } from "react";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import "../styles/Navbar.css";
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     const [isNavExpanded, setIsNavExpanded] = useState(false);
-    let history = useHistory()
-    function reloadmain() {
-        history.push('/')
-        window.location.reload(true)
-    }
-    function reloadhome() {
-        history.push('/home')
-        window.location.reload(true)
-    }
-    function reloadabout() {
-        history.push('/about')
-        window.location.reload(true)
-    }
-    function reloadbuild() {
-        history.push('/mybuilds')
-        window.location.reload(true)
-    }
-    function reloadinfo() {
-        history.push('/myinfo')
-        window.location.reload(true)
-    }
+    // let history = useHistory()
+    // function reloadmain() {
+    //     history.push('/')
+    //     window.location.reload(true)
+    // }
+    // function reloadhome() {
+    //     history.push('/home')
+    //     window.location.reload(true)
+    // }
+    // function reloadabout() {
+    //     history.push('/about')
+    //     window.location.reload(true)
+    // }
+    // function reloadbuild() {
+    //     history.push('/mybuilds')
+    //     window.location.reload(true)
+    // }
+    // function reloadinfo() {
+    //     history.push('/myinfo')
+    //     window.location.reload(true)
+    // }
     return (
         <nav className="navigation">
-            <Link to="/" className="brand-name" onClick={reloadmain}>
+            {/* <Link to="/" className="brand-name" onClick={reloadmain}> */}
+            <Link to="/" className="brand-name">
                 <div className='logopart'>
                     <div id='logo'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-code-square" viewBox="0 0 16 16">
@@ -71,12 +72,19 @@ export default function Navbar() {
                 }
             >
                 <ul>
-                    <li> <Link to='/home' onClick={reloadhome}>
+                    {/* <li> <Link to='/home' onClick={reloadhome}>
                         <i className="fa fa-home" style={{ fontSize: "16px", color: "white" }}> </i>
                     </Link></li>
                     <li> <Link to='/about' onClick={reloadabout}>ABOUT</Link></li>
                     <li> <Link to='/mybuilds' onClick={reloadbuild}>My Builds</Link></li>
                     <li> <Link to='/myinfo' onClick={reloadinfo}>My Info</Link></li>
+                    <li> <Link to='/myteam'>My Team</Link></li> */}
+                    <li> <Link to='/home'>
+                        <i className="fa fa-home" style={{ fontSize: "16px", color: "white" }}> </i>
+                    </Link></li>
+                    <li> <Link to='/about'>ABOUT</Link></li>
+                    <li> <Link to='/mybuilds' >My Builds</Link></li>
+                    <li> <Link to='/myinfo'>My Info</Link></li>
                     <li> <Link to='/myteam'>My Team</Link></li>
                 </ul>
             </div>
