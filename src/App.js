@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import About from './components/About';
 import Builds from './components/Builds';
 import Home from './components/Home';
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <Router>
+        <Router basename='/'>
           <Navbar />
           <Switch>
             <Route exact path="/">
