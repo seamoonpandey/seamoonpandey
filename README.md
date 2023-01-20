@@ -1,4 +1,4 @@
-[![MasterHead](https://hub.packtpub.com/wp-content/uploads/2018/03/510_Cover-Image.png)]
+
 <h1 align="center">Hi 👋, I'm Seamoon Pandey</h1>
 <h3 align="center">A Tech Enthusiast and a Computer Engineering</h3>
 <img align="right" alt="coding" width="400" src="https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif"/>
