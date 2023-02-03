@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on **Web Development, Network and Security**
 
-- 💬 Ask me about **web,MERN,react ,next,javascript,c,c++,html,css,linux**
+- 💬 Ask me about **WEB, MERN, React , Next, JavaScript, C, C++, HTML, CSS, Linux**
 
 - 📫 How to reach me **pandeyseamoon@gmail.com**
 
