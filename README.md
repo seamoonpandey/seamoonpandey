@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi 👋, I'm Seamoon Pandey</h1>
-<h3 align="center">A Tech Enthusiast and a Computer Engineering</h3>
+<h3 align="center">A Tech Enthusiast and a Computer Engineer (undergraduate)</h3>
 
 
 <!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=seamoonpandey&label=Profile%20views&color=0e75b6&style=flat" alt="seamoonpandey" /> </p> -->
